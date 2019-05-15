@@ -1,4 +1,7 @@
-from collections import defaultdict
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# pylint: disable = line-too-long
+
 
 ORDER_MONTHS = 1
 
@@ -14,7 +17,7 @@ def get_expiration_date(year: int, month: int, day: int) -> list:
     :param day:
     :return:
     """
-    month_dict = defaultdict(tuple)
+    month_dict = dict()
     big = tuple(range(1, 32))
     small = tuple(range(1, 31))
 
