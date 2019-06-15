@@ -1,0 +1,28 @@
+                            《大数据》课程设计内容  
+1. 针对电影评论数据，奇数学号用http://files.grouplens.org/datasets/movielens/ml-1m.zip，
+    偶数学号用http://files.grouplens.org/datasets/movielens/ml-10m.zip，
+    用pyspark计算，最终输出以下信息：
+    a. 输出平均得分最高的10部电影名称
+    b. 画直方图，列出各类别电影的数量，注意同一部电影不要重复计算
+    c. 输出每部电影的平均得分及标准差,要有电影名称，不含年
+    d. 输出职业编号为'1',‘6’，‘16’的user的性别分布，并通过饼状图显示
+
+2. 针对贵州高速公路流水数据（4个数据文件，学号尾数除以4的余数为要使用的文件的顺序编号，只用一个文件），
+     http://opendata.pku.edu.cn/dataset.xhtml?persistentId=doi:10.18170/DVN/AQBKBM
+    使用pyspark计算并输出：
+    a. 对行驶速度、行驶时间进行描述性分析
+    b. 输出最繁忙的10个区域中文名称
+    c. 画直方图，分别列出24小时，进入高速公路的车辆数量的分布，离开高速公路的车辆数量的分布。
+    d. 画出绿色通道车辆里程数的箱线图
+
+3. 针对新浪微博用户关系数据，http://opendata.pku.edu.cn/dataset.xhtml?persistentId=doi:10.18170/DVN/KVBL82
+    使用pyspark计算并输出：
+    a. 使用motify查找并输出所有这样的人：有两个或以上的人关注他，他又至少关注两个或以上的人。
+    b. 输出pageRank排名前10的所有人
+    c. 输出入度排名前10的所有人
+
+4. 用pyspark实现https://blog.csdn.net/weixin_41297324/article/details/88871145预测
+    代码要逐行注释，我会仔细看的。
+    模型的评估结果要写一段文字描述。
+
+第18周汇集到班长，交给我；包含源代码，录像及语音讲解，不包含数据，不包含数据！
